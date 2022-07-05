@@ -1,2 +1,4 @@
 #Dashboard-MarbGroup
-# np
+#to run
+# npm install
+# npm start
