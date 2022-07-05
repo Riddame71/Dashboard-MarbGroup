@@ -1,0 +1,10 @@
+.ProgressAccordian {
+  &__subAccordian {
+    &__arrow {
+      transition: 300ms;
+      &--expanded {
+        background-color: red;
+      }
+    }
+  }
+}

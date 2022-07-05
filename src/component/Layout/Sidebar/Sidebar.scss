@@ -1,0 +1,67 @@
+.Sidebar {
+  background-color: #1c2b36;
+  width: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  // padding: 0 25px;
+}
+
+.SidebarHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  &__icon {
+    margin-right: 14px;
+  }
+  &__text {
+    text-align: left;
+    font: normal normal bold 17px/20px;
+    color: #bad2e2;
+    max-width: 20ch;
+  }
+}
+
+.SidebarItems {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 100%;
+  &__item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 25px;
+    &:hover {
+      background-color: #17242e;
+    }
+    &--selected {
+      background-color: #17242e;
+    }
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    &__icon {
+      margin-right: 14px;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    &__text {
+      text-align: left;
+      font: normal normal bold 17px/20px;
+      color: #bad2e2;
+      max-width: 20ch;
+      display: flex;
+      align-items: center;
+      &__icon {
+        margin-right: 15px;
+      }
+    }
+  }
+}

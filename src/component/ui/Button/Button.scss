@@ -1,0 +1,16 @@
+.button {
+  background-color: #2b80ff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  color: white;
+  font: normal normal medium 12px/14px Roboto;
+  cursor: pointer;
+  transition: 100ms;
+  backface-visibility: hidden;
+  &:active {
+    transform: scale(0.99);
+  }
+}

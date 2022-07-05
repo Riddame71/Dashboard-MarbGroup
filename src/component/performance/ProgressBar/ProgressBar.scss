@@ -1,0 +1,25 @@
+.ProgressBar {
+  &__header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    margin-bottom: 6px;
+    &__title {
+      font: normal normal medium 12px/12px Roboto;
+      color: #1c2b36;
+      margin-right: 5px;
+    }
+    &__subtitle {
+      display: flex;
+      font: normal normal bold 12px/20px Roboto;
+      color: #3a85e8;
+      height: 19px;
+    }
+  }
+}
+.MuiLinearProgress-barColorPrimary {
+  background-color: #659cff !important;
+}
+.MuiLinearProgress-bar2Buffer {
+  background-color: #ecebeb !important;
+}
